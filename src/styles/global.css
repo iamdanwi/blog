@@ -1,4 +1,38 @@
-/* WARNING: This CSS is optimized for the tutorial, minimizing the classes you’ll need in the comnponents. In other words, it’s not really great CSS so that the tutorial can hopefully be great—but you’ll need to follow the markup exactly for things to work properly. It would need significant re-write to use in your own custom site. */
+/* Works in Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+  /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Color of the track */
+  border-radius: 10px;
+  /* Roundness of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Color of the handle */
+  border-radius: 10px;
+  /* Roundness of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Darker color when hovered */
+}
+
+/* Works in Firefox */
+* {
+  scrollbar-width: thin;
+  /* Thickness of the scrollbar */
+  scrollbar-color: #888 #f1f1f1;
+  /* Color of the handle and track */
+}
 
 /* CSS RESET */
 *,
