@@ -1,0 +1,41 @@
+---
+// component imports
+import MainLayout from "../layouts/MainLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import Link from "../components/Link.astro";
+
+// utils imports
+import { formatBlogPosts } from "../js/utils";
+
+const allPosts = await Astro.glob("./blog/*.md");
+const formattedPosts = formatBlogPosts(allPosts, {
+  limit: 3,
+});
+---
+
+<MainLayout title="Dainwi's Blog">
+  <section class="container about" aria-label="About Me">
+    <img src="/images/logo.png" alt="dainwi" width="200" height="330" />
+    <div class="content">
+      <h1 class="h1">Dainwi's Blog</h1>
+      <p>
+        Passionate Full Stack Developer specializing in seamless user experiences and efficient backend solutions. Open-source contributor, React enthusiast, and tech mentor.
+      </p>
+      <Link href="/about/" style="secondary" text="👋 About Me" />
+    </div>
+  </section>
+  <section class="container" aria-label="New Blog Posts">
+    <h2 class="h1">Blog Posts</h2>
+    <div class="post-container">
+      {
+        formattedPosts.map((post) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+            tagType="h3"
+          />
+        ))
+      }
+    </div>
+  </section>
+</MainLayout>
