@@ -1,7 +1,7 @@
 const navData = [
   {
     name: "About",
-    path: "/about/",
+    path: "https://dainwi.vercel.app/",
   },
   {
     name: "Blog",

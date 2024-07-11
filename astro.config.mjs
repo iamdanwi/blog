@@ -8,7 +8,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dainwi.vercel.app',
+  site: 'https://dainwi-blog.vercel.app/',
   integrations: [image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), sitemap()]

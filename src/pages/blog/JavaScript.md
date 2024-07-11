@@ -4,10 +4,10 @@ title: JavaScript with Arrow Functions
 date: 2024-07-11
 author: Dainwi Choudhary
 image: {
-  src: "/images/post-1.jpg",
+  src: "/images/javascript.jpg",
   alt: "A picture of a coder",
 }
-description: Easy JavaScript with Arrow Functions!
+description: Explore JavaScript with Arrow Functions! Learn concise syntax, benefits, and practical examples to boost your coding efficiency.
 draft: false
 category: JS
 ---
