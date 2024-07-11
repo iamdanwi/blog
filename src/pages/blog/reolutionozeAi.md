@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title: AI: Revolutionizing tech and society through innovation and ethics.  # in 31 charecters
+title: AI Revolutionizing tech and society through innovation and ethics.  # in 31 charecters
 date: 2024-07-11
 author: Dainwi Choudhary
 image: {
