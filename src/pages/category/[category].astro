@@ -9,20 +9,16 @@ import { slugify, formatBlogPosts } from "../../js/utils";
 export async function getStaticPaths() {
   return [
     {
-      params: { category: slugify("Reference Docs") },
-      props: { name: "Reference Docs" },
+      params: { category: slugify("AI") },
+      props: { name: "AI" },
     },
     {
       params: { category: slugify("General") },
       props: { name: "General" },
     },
     {
-      params: { category: slugify("CSS") },
-      props: { name: "CSS" },
-    },
-    {
-      params: { category: slugify("Astro") },
-      props: { name: "Astro" },
+      params: { category: slugify("JS") },
+      props: { name: "JS" },
     },
   ];
 }
