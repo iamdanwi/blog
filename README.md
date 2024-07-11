@@ -1,27 +1,81 @@
-# Daiwni's Blog
+![](/screenshot_dainwi-blog.vercel.app.png)
 
-Welcome to Daiwni's blog, your go-to destination for all things programming and tech. Whether you're a beginner programmer, seasoned software engineer, or cybersecurity expert, our blog offers insightful articles tailored to your level of expertise. Stay updated with the latest news and trends in the tech world, and dive deep into topics that matter. Join our community of tech enthusiasts and elevate your knowledge with fresh, engaging content.
+## [DAINWI BLOGS](https://dainwi-blog.vercel.app/)
+Hey there! Welcome to my blog. I'm Dainwi, a software engineer and a tech enthusiast. I write about my experiences, learnings, and thoughts on software development, tech, and life. I hope you find something useful here. Enjoy reading!
 
-## Description
+## GETTING STARTED
 
-This blog website provides:
-- Insightful articles on various programming and tech topics
-- Content tailored for different levels of expertise
-- Latest news and trends in the tech world
-- A community for tech enthusiasts to share and grow their knowledge
+### TABLE OF CONTENT
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the app](#running-the-app)
+- [Deployment](#deployment)
+- [Built with](#built-with)
+- [Authors](#authors)
+- [License](#license)
 
-## Installation
 
-No installation required.
+### PREREQUISITES
+To run this project locally, you need to have the following installed on your machine:
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
+- [Vercel CLI](https://vercel.com/download)
 
-## Usage
+### INSTALLATION
+1. Fork and clone this repository:
 
-Simply visit the blog to read the articles and stay updated with the latest in programming and tech.
+```bash
+    git clone <your-forked-repo-url>
+```
+2. Navigate to the project directory:
 
-## Contribution
+```bash
+    cd your-forked-repo
+```
+3. Install the dependencies:
 
-Currently, we are not accepting contributions.
+```bash
+    npm install
+```
 
-## License
+### RUNNING THE APP
+1. Start the development server:
 
-No license information available.
+```bash
+    npm run dev
+```
+2. Open your browser and navigate to `http://localhost:3000/` to view the app.
+
+### DEPLOYMENT
+This app is deployed on Vercel. To deploy your own, follow these steps:
+1. Install the Vercel CLI:
+
+```bash
+    npm install -g vercel
+```
+2. Login to your Vercel account:
+
+```bash
+    vercel login
+```
+3. Deploy the app:
+
+```bash
+    vercel
+```
+
+### BUILT WITH
+
+ - [Astro](https://astro.build/)
+ - [Tailwind CSS](https://tailwindcss.com/)
+ - [Vercel](https://vercel.com/)
+ - [Node.js](https://nodejs.org/en/)
+
+### AUTHORS
+
+- [Dainwi](https://github.com/dainwi)
+
+### LICENSE
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
