@@ -7,11 +7,27 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dainwi-blog.vercel.app/about</loc>
+    <loc>https://dainwi-blog.vercel.app/blog/</loc>
+    <lastmod>2024-07-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dainwi-blog.vercel.app/blog/GeneralPurposeBrain</loc>
     <lastmod>2024-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    
+    <loc>https://dainwi-blog.vercel.app/blog/JavaScript</loc>
+    <lastmod>2024-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dainwi-blog.vercel.app/blog/reolutionozeAi</loc>
+    <lastmod>2024-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
