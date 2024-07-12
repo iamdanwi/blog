@@ -1,20 +1,28 @@
 ---
-// component imports
 import Seo from "../components/Seo.astro";
+import siteData from "../data/siteData.json";
 
 const { title, description, image, frontmatter, robots } = Astro.props;
----
 
+const seoProps = {
+  title: title || siteData.title,
+  description: description || siteData.description,
+  image: image || siteData.image,
+  frontmatter,
+  robots
+};
+---
 <head>
   <meta charset="utf-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width" />
   <meta name="generator" content={Astro.generator} />
-  <title>{title}</title>
-  <meta name="description" content={description} />
+  <title>{seoProps.title}</title>
+  <meta name="description" content={seoProps.description} />
+  <meta name="keywords" content="programming, software development, tech news, coding tutorials, JavaScript, Python, web development, React, Node.js, cybersecurity, frontend development, backend development, full stack development, machine learning, AI, artificial intelligence, data science, programming tips, developer resources, software engineering, coding challenges, open source, GitHub, version control, APIs, HTML, CSS, responsive design, web performance, site optimization, SEO, tech trends, software tools, debugging, code review, tech community, tech events, coding bootcamps, programming languages, tech articles, developer blogs, tech guides, programming best practices" />
   <meta name="google-site-verification" content="QBiUnzLrMkYMspH9X8gr1ZxNcdy2RZAYAT3Cl-_Mi1Q" />
 
-  <Seo {title} {description} url={Astro.url} {image} {frontmatter} {robots} />
+  <Seo {...seoProps} url={Astro.url} />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" /><link
     rel="preconnect"
@@ -25,16 +33,13 @@ const { title, description, image, frontmatter, robots } = Astro.props;
     rel="stylesheet"
   />
 
-
-
-
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TKVBFJC3SR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TKVBFJC3SR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-TKVBFJC3SR');
-</script>
+    gtag('config', 'G-TKVBFJC3SR');
+  </script>
 </head>
