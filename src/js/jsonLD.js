@@ -2,7 +2,7 @@ import siteData from "../data/siteData.json"
 import { slugify } from "./utils";
 
 
-export default function jsonLDGenerator({ type, post, url }) {
+export default function jsonLDGenerator({ type, post, url, keyword }) {
   if (type === 'post') {
     return `<script type="application/ld+json">
       {
@@ -15,6 +15,7 @@ export default function jsonLDGenerator({ type, post, url }) {
         "headline": "${post.title}",
         "description": "${post.description}",
         "image": "${post.image.src}",
+        "keywords": "${post.keyword}",
         "author": {
           "@type": "Person",
           "name": "${post.author}",
