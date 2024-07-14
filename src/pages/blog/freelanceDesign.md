@@ -1,13 +1,13 @@
 ---
 layout: "../../layouts/BlogPostLayout.astro"
-title:  Freelance Website Designers  # in 31 charecters
-date: 2024-07-11
+title:  Freelance Website Designers  # in 31 characters
+date: 2024-07-14
 author: Dainwi Choudhary
 image: {
   src: "/images/freelancer.jpg",
   alt: "Freelance Website Designer",
 }
-description: Freelance website designers enhance online presence with optimized designs. Find them on platforms like Upwork and Fiverr, ensuring SEO-friendly results. #in 128 charecters
+description: Freelance website designers enhance online presence with optimized designs. Find them on platforms like Upwork and Fiverr, ensuring SEO-friendly results. #in 128 characters
 draft: false
 category: General
 ---
