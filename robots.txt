@@ -1,8 +1,4 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /login/
-Disallow: /register/
-Disallow: /private/
 Allow: /
 
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://dainwi-blog.vercel.app/sitemap.xml
