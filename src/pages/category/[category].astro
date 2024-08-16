@@ -21,8 +21,12 @@ export async function getStaticPaths() {
       props: { name: "JS" },
     },
     {
-      params: { category: slugify("self-improvement") },
-      props: { name: "self-improvement" },
+      params: { category: slugify("Self-Improvement") },
+      props: { name: "Self-Improvement" },
+    },
+    {
+      params: { category: slugify("Philosophy") },
+      props: { name: "Philosophy" },
     },
   ];
 }
