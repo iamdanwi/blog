@@ -1,81 +1,36 @@
-![](/screenshot_dainwi-blog.vercel.app.png)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## [DAINWI BLOGS](https://dainwi-blog.vercel.app/)
-Hey there! Welcome to my blog. I'm Dainwi, a software engineer and a tech enthusiast. I write about my experiences, learnings, and thoughts on software development, tech, and life. I hope you find something useful here. Enjoy reading!
+## Getting Started
 
-## GETTING STARTED
-
-### TABLE OF CONTENT
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Running the app](#running-the-app)
-- [Deployment](#deployment)
-- [Built with](#built-with)
-- [Authors](#authors)
-- [License](#license)
-
-
-### PREREQUISITES
-To run this project locally, you need to have the following installed on your machine:
-- [Node.js](https://nodejs.org/en/)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-- [Git](https://git-scm.com/)
-- [Vercel CLI](https://vercel.com/download)
-
-### INSTALLATION
-1. Fork and clone this repository:
+First, run the development server:
 
 ```bash
-    git clone <your-forked-repo-url>
-```
-2. Navigate to the project directory:
-
-```bash
-    cd your-forked-repo
-```
-3. Install the dependencies:
-
-```bash
-    npm install
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-### RUNNING THE APP
-1. Start the development server:
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```bash
-    npm run dev
-```
-2. Open your browser and navigate to `http://localhost:3000/` to view the app.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### DEPLOYMENT
-This app is deployed on Vercel. To deploy your own, follow these steps:
-1. Install the Vercel CLI:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-```bash
-    npm install -g vercel
-```
-2. Login to your Vercel account:
+## Learn More
 
-```bash
-    vercel login
-```
-3. Deploy the app:
+To learn more about Next.js, take a look at the following resources:
 
-```bash
-    vercel
-```
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### BUILT WITH
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
- - [Astro](https://astro.build/)
- - [Tailwind CSS](https://tailwindcss.com/)
- - [Vercel](https://vercel.com/)
- - [Node.js](https://nodejs.org/en/)
+## Deploy on Vercel
 
-### AUTHORS
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- [Dainwi](https://github.com/dainwi)
-
-### LICENSE
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
